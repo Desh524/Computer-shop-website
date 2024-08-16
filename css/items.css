@@ -1,0 +1,86 @@
+*{
+	padding: 0;
+	margin: 0;
+	background-attachment: fixed;
+}
+
+.all-items{
+	color:red;
+	margin-top:20px;
+	text-align:center;
+}
+.items{
+	background:gray;
+	display: block;
+	height:25;
+	width:100%;
+	cursor:pointer;
+	text-indent:60px;
+	color:blue;
+	
+}
+
+
+/*start card design*/
+	
+.container{
+	display: flex;
+	margin-left:60px;
+	flex-wrap:wrap;
+	filter:drop-shadow(.75em .75em .5em);
+}
+
+.card{
+	background:#00cc99;
+	width:170px;
+	margin:15px;
+	border-radius:15px 15px 30px 30px; 
+}
+
+
+.card-image{
+	height:100px;
+	margin-bottom:15px;
+	background-size: cover;
+	border-radius:15px;
+	cursor:grab;
+}
+
+.build-pic{
+	border-radius:15px 15px 0 0;
+	height:99px;
+	width:168px;
+	margin-left:1px;
+	margin-top:1px;
+}
+.card h3{
+	text-align:center;
+	margin-left:10px;
+	margin-right:10px;
+	font-size:17px;
+	cursor:context-menu;
+}
+.card p{
+	margin-left:10;
+}
+
+.price-1{
+	background:#b33c00;
+	color: white;
+	display: block;
+	cursor: pointer;
+	border-radius:30px;
+	text-align: center;
+	margin:10 20;
+	padding: 10px;
+	
+}
+
+.card:hover{
+	background-color:gray;
+	color:white;
+	transform: scale(1.1);
+	transition: all 1s ease;
+}
+	/*complete card designs*/
+

@@ -1,0 +1,133 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*Start the header of web [6 to 60]*/
+ul.list{
+	list-style: none;
+	background:black;
+	text-align: right;
+	font-family: monospace;
+	
+}
+
+
+ul li{
+	display: inline-block;
+	position: relative;
+	
+}
+
+ul li a{
+	display: block;
+	padding: 13px 25px;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	
+	
+}
+
+ul li ul.dropdown{
+	width: 150px;
+	background:black;
+	position: absolute;
+	display: none;
+	z-index:8;
+	text-align:center;
+}
+
+
+
+ul li:hover ul.dropdown{
+	display:block;
+	
+}
+
+ul li ul.Vdropdown{
+	width: 150px;
+	background:black;
+	position: absolute;
+	display: none;
+	
+}
+
+ul li a:hover{
+	background:#BB2266;
+	
+}
+
+ul li:hover ul.Vdropdown{
+	display:block;
+	
+}
+/*Complete the header design*/
+
+/*start the footer design [64 to ]*/
+
+.sticky-footer{
+	position: sticky;
+	top:100%;
+}
+
+.footer{
+	width: 100%;
+	padding: 15px 0%;
+	background: #333;
+	color: #efefef;
+	display: flex;
+	background-color: black;
+	
+}
+
+.footer div{
+	text-align: center;
+}
+
+.col-1{
+	flex-grow: 0.2;
+}
+.col-2{
+	flex-grow: 0.5;
+}
+.col-3{
+	flex-grow: 0.3;
+}
+
+
+.footer div h3{
+	font-weight:100;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+	color: red;
+	text-decoration: underline;
+}
+
+.col-1 a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	margin-bottom: 10px;
+}
+form button{
+	background: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	border-radius:30px;
+	padding: 7px 20px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.Social-icons i{
+	font-size:22px;
+	margin:10px;
+	cursor: pointer;
+}
+
+
+}
+/*complete the footer design*/
+
